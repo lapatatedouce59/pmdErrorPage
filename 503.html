@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erreur 503</title>
+
+    <style>
+        #logoJeu{
+            width: 35vw;
+            text-align: center;
+            display: flex;
+            margin: auto;
+            margin-top: 20px;
+        }
+
+        #title{
+            text-align: center;
+            font-family: Parisine, Arial, Helvetica, sans-serif;
+            margin: 0;
+            font-size: 30px;
+            margin-top: 10px;
+        }
+
+        table{
+            margin: auto;
+            text-align: center;
+            width: 90%;
+        }
+
+        tr{
+            margin: auto;
+            text-align: center;
+            width: 100%;
+        }
+
+        .textSectTitle{
+            font-family: Parisine, Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+        .textSectDesc{
+            font-family: Parisine, Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            color: #323232;
+        }
+
+        #img{
+            height: 50vh;
+        }
+
+        #dev{
+            font-family: Parisine, Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            text-align: center;
+            color: #9A9A9A;
+        }
+    </style>
+</head>
+<body>
+    <img src="./img/logo site.png" alt="" id="logoJeu">
+    <h1 id="title">Nos services sont actuellement indisponibles.</h1>
+    <table id="contents">
+        <tr>
+            <td id="text" style="width: 50%; text-align: justify;">
+                <p class="textSectTitle">
+                    Il semblerait que nous menions une maintenance ou que nous soyons victime d’une attaque.
+                </p>
+                <p class="textSectDesc">
+                    Si vous voyez ceci, c’est que nous en avons conscience. Inutile de nous le signaler. Plus d’informations sont disponibles sur <a href="https://status.pmdapp.fr">status.pmdapp.fr</a>.
+                </p>
+            </td>
+            <td id="image">
+                <img src="./img/503.png" alt="" id="img">
+            </td>
+        </tr>
+    </table>
+    <p id="dev">HTTP ERROR - 503 (SERVICE UNAVAILABLE)</p>
+</body>
+</html>
